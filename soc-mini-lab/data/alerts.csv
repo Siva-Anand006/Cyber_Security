@@ -1,0 +1,346 @@
+rule_name,severity,affected_user,source_ip,timestamp,explanation,recommended_action
+Brute Force Login,Critical,user8,139.252.80.19,2026-03-28 14:45:24.031276,User user8 had 6 failed logins followed by a successful login.,Reset user password and block source IP.
+Brute Force Login,Critical,user16,16.97.41.246,2026-03-28 13:16:24.031276,User user16 had 7 failed logins followed by a successful login.,Reset user password and block source IP.
+Brute Force Login,Critical,user18,17.117.4.133,2026-03-28 11:28:24.031276,User user18 had 5 failed logins followed by a successful login.,Reset user password and block source IP.
+Brute Force Login,Critical,user11,161.1.67.42,2026-03-28 09:40:24.031276,User user11 had 7 failed logins followed by a successful login.,Reset user password and block source IP.
+Brute Force Login,Critical,admin1,156.220.21.10,2026-03-28 08:14:24.031276,User admin1 had 5 failed logins followed by a successful login.,Reset user password and block source IP.
+Brute Force Login,Critical,user6,58.56.204.239,2026-03-28 05:47:24.031276,User user6 had 8 failed logins followed by a successful login.,Reset user password and block source IP.
+Brute Force Login,Critical,user2,34.238.255.192,2026-03-27 23:04:24.031276,User user2 had 5 failed logins followed by a successful login.,Reset user password and block source IP.
+Brute Force Login,Critical,user4,141.207.101.52,2026-03-27 22:14:24.031276,User user4 had 7 failed logins followed by a successful login.,Reset user password and block source IP.
+Brute Force Login,Critical,user17,154.45.103.120,2026-03-27 16:12:24.031276,User user17 had 7 failed logins followed by a successful login.,Reset user password and block source IP.
+Brute Force Login,Critical,user15,101.126.134.27,2026-03-27 15:47:24.031276,User user15 had 9 failed logins followed by a successful login.,Reset user password and block source IP.
+Brute Force Login,Critical,user3,179.99.89.37,2026-03-27 15:00:24.031276,User user3 had 18 failed logins followed by a successful login.,Reset user password and block source IP.
+Brute Force Login,Critical,user7,180.31.52.35,2026-03-27 12:45:24.031276,User user7 had 5 failed logins followed by a successful login.,Reset user password and block source IP.
+Brute Force Login,Critical,user13,66.44.140.42,2026-03-27 06:21:24.031276,User user13 had 5 failed logins followed by a successful login.,Reset user password and block source IP.
+Brute Force Login,Critical,admin2,74.74.31.36,2026-03-27 05:01:24.031276,User admin2 had 6 failed logins followed by a successful login.,Reset user password and block source IP.
+Brute Force Login,Critical,user5,75.238.44.162,2026-03-26 11:27:24.031276,User user5 had 7 failed logins followed by a successful login.,Reset user password and block source IP.
+Brute Force Login,Critical,user12,83.5.43.123,2026-03-26 04:00:24.031276,User user12 had 7 failed logins followed by a successful login.,Reset user password and block source IP.
+Brute Force Login,Critical,user1,59.20.69.65,2026-03-25 10:37:24.031276,User user1 had 6 failed logins followed by a successful login.,Reset user password and block source IP.
+Impossible Travel,High,user4,115.220.3.243,2026-03-28 16:11:24.031276,Login from CA just 1.9 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user8,168.46.252.245,2026-03-28 15:19:24.031276,Login from US just 5.3 hours after login from CA.,Investigate user location and enforce MFA.
+Brute Force Login,High,user14,181.143.242.174,2026-03-28 15:00:24.031276,User user14 had 9 failed logins.,Reset user password and block source IP.
+Impossible Travel,High,user19,214.2.190.164,2026-03-28 14:48:24.031276,Login from CA just 6.2 hours after login from US.,Investigate user location and enforce MFA.
+Brute Force Login,High,user9,152.101.183.16,2026-03-28 14:33:24.031276,User user9 had 7 failed logins.,Reset user password and block source IP.
+Impossible Travel,High,user4,179.204.102.199,2026-03-28 14:15:24.031276,Login from IN just 0.3 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user4,171.87.17.182,2026-03-28 13:55:24.031276,Login from US just 6.3 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin2,136.31.243.185,2026-03-28 12:34:24.031276,Login from US just 1.8 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin2,9.136.7.124,2026-03-28 10:45:24.031276,Login from CA just 1.7 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user8,95.18.118.17,2026-03-28 10:03:24.031276,Login from CA just 2.2 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user9,50.27.175.138,2026-03-28 10:00:24.031276,Login from US just 1.8 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user17,212.98.223.228,2026-03-28 09:18:24.031276,Login from US just 6.4 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user12,141.34.151.1,2026-03-28 09:07:24.031276,Login from US just 10.6 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user9,195.87.54.155,2026-03-28 08:12:24.031276,Login from IN just 1.4 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user4,148.145.186.38,2026-03-28 07:37:24.031276,Login from UK just 6.0 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user10,165.235.128.173,2026-03-28 06:57:24.031276,Login from US just 5.6 hours after login from DE.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin1,160.212.107.229,2026-03-28 05:28:24.031276,Login from US just 1.4 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user2,60.166.107.1,2026-03-28 05:01:24.031276,Login from US just 1.2 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin1,73.140.209.187,2026-03-28 04:07:24.031276,Login from CA just 10.6 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user2,156.79.73.237,2026-03-28 03:51:24.031276,Login from UK just 0.7 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user17,164.74.20.99,2026-03-28 02:53:24.031276,Login from IN just 0.3 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user10,96.122.110.190,2026-03-28 01:23:24.031276,Login from DE just 0.2 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user1,133.104.68.171,2026-03-28 00:40:24.031276,Login from US just 1.5 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user14,120.204.23.106,2026-03-28 00:28:24.031276,Login from US just 4.2 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user2,180.116.122.197,2026-03-28 00:25:24.031276,Login from US just 0.4 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user2,123.1.100.47,2026-03-28 00:00:24.031276,Login from CA just 2.9 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user18,34.247.48.24,2026-03-27 23:21:24.031276,Login from US just 1.0 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user1,193.178.107.64,2026-03-27 23:10:24.031276,Login from IN just 4.5 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user13,115.178.228.176,2026-03-27 22:54:24.031276,Login from US just 4.6 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user3,5.134.117.15,2026-03-27 22:39:24.031276,Login from US just 1.1 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user12,64.167.228.174,2026-03-27 22:32:24.031276,Login from CA just 5.8 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user18,31.92.178.245,2026-03-27 22:21:24.031276,Login from UK just 0.4 hours after login from DE.,Investigate user location and enforce MFA.
+Impossible Travel,High,user18,116.84.201.25,2026-03-27 21:59:24.031276,Login from DE just 0.4 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user3,150.51.42.229,2026-03-27 21:34:24.031276,Login from UK just 7.8 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user2,61.237.79.147,2026-03-27 21:06:24.031276,Login from US just 1.8 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user14,34.222.153.239,2026-03-27 20:16:24.031276,Login from CA just 2.3 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user2,115.177.77.220,2026-03-27 19:07:24.031276,Login from CA just 1.7 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user13,15.70.70.100,2026-03-27 18:16:24.031276,Login from UK just 0.1 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user14,54.15.20.23,2026-03-27 17:57:24.031276,Login from US just 0.4 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin1,27.131.128.194,2026-03-27 17:33:24.031276,Login from UK just 0.9 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user14,128.125.125.107,2026-03-27 17:31:24.031276,Login from UK just 1.9 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user2,86.203.248.76,2026-03-27 17:23:24.031276,Login from US just 9.4 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user12,199.145.229.228,2026-03-27 16:41:24.031276,Login from IN just 5.3 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user10,161.160.249.116,2026-03-27 14:55:24.031276,Login from US just 0.9 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user10,30.71.59.67,2026-03-27 13:59:24.031276,Login from IN just 10.3 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user18,61.167.21.48,2026-03-27 13:14:24.031276,Login from US just 8.8 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user5,175.229.191.223,2026-03-27 12:15:24.031276,Login from US just 0.2 hours after login from DE.,Investigate user location and enforce MFA.
+Impossible Travel,High,user5,23.254.88.181,2026-03-27 12:01:24.031276,Login from DE just 0.7 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user9,204.134.13.116,2026-03-27 11:46:24.031276,Login from US just 6.1 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user13,81.191.22.11,2026-03-27 10:50:24.031276,Login from US just 0.8 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user13,33.99.218.132,2026-03-27 09:59:24.031276,Login from CA just 0.1 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user15,25.112.127.98,2026-03-27 09:24:24.031276,Login from US just 7.1 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user11,99.166.138.121,2026-03-27 08:41:24.031276,Login from IN just 4.7 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user2,128.23.203.206,2026-03-27 08:00:24.031276,Login from IN just 0.2 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user13,87.213.117.131,2026-03-27 07:11:24.031276,Login from US just 6.8 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user17,94.94.100.129,2026-03-27 06:46:24.031276,Login from US just 3.7 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user4,206.17.141.149,2026-03-27 06:09:24.031276,Login from US just 1.4 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user9,65.151.101.156,2026-03-27 05:38:24.031276,Login from IN just 7.2 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user16,76.132.128.94,2026-03-27 05:07:24.031276,Login from US just 6.0 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user14,147.156.58.50,2026-03-27 05:04:24.031276,Login from US just 1.5 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user4,7.122.151.47,2026-03-27 04:48:24.031276,Login from CA just 4.9 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user18,110.207.217.171,2026-03-27 04:23:24.031276,Login from CA just 1.8 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user10,186.225.19.194,2026-03-27 03:43:24.031276,Login from UK just 5.5 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user14,108.107.138.153,2026-03-27 03:35:24.031276,Login from UK just 0.2 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user17,116.169.150.20,2026-03-27 03:04:24.031276,Login from IN just 0.4 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user8,38.14.29.160,2026-03-27 02:18:24.031276,Login from US just 4.0 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user15,40.220.59.222,2026-03-27 02:16:24.031276,Login from CA just 1.6 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user18,18.228.189.227,2026-03-27 02:04:24.031276,Login from US just 2.0 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user3,134.8.4.22,2026-03-27 00:53:24.031276,Login from US just 11.7 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user15,207.217.48.51,2026-03-27 00:40:24.031276,Login from US just 2.9 hours after login from DE.,Investigate user location and enforce MFA.
+Impossible Travel,High,user13,115.159.247.142,2026-03-27 00:26:24.031276,Login from UK just 6.7 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user6,169.174.32.190,2026-03-27 00:01:24.031276,Login from US just 0.7 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user18,18.246.169.33,2026-03-26 23:51:24.031276,Login from UK just 2.5 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user12,165.144.204.243,2026-03-26 23:28:24.031276,Login from US just 2.5 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user1,38.35.237.57,2026-03-26 23:24:24.031276,Login from US just 0.2 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user6,112.212.40.106,2026-03-26 23:18:24.031276,Login from IN just 2.6 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user1,83.16.133.138,2026-03-26 23:09:24.031276,Login from IN just 5.1 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user16,186.36.245.80,2026-03-26 23:07:24.031276,Login from CA just 2.7 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user7,194.179.252.246,2026-03-26 22:52:24.031276,Login from US just 6.3 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user8,96.205.123.136,2026-03-26 22:16:24.031276,Login from CA just 0.7 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user15,211.48.182.1,2026-03-26 21:45:24.031276,Login from DE just 2.5 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user12,178.254.130.218,2026-03-26 20:56:24.031276,Login from UK just 0.3 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user16,150.123.211.237,2026-03-26 20:25:24.031276,Login from US just 0.9 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user17,163.110.216.233,2026-03-26 20:01:24.031276,Login from US just 0.8 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user16,44.218.230.162,2026-03-26 19:33:24.031276,Login from UK just 0.5 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user17,71.18.224.73,2026-03-26 19:15:24.031276,Login from CA just 0.1 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user17,156.161.164.55,2026-03-26 19:06:24.031276,Login from IN just 3.9 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user1,159.142.13.6,2026-03-26 18:05:24.031276,Login from CA just 5.8 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user13,106.141.66.198,2026-03-26 17:44:24.031276,Login from IN just 0.5 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user4,10.84.49.250,2026-03-26 17:27:24.031276,Login from US just 3.2 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user15,128.247.118.114,2026-03-26 17:04:24.031276,Login from US just 1.6 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user7,59.231.62.148,2026-03-26 16:36:24.031276,Login from CA just 1.9 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user4,5.5.116.95,2026-03-26 14:15:24.031276,Login from IN just 0.7 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user16,20.88.101.103,2026-03-26 13:15:24.031276,Login from US just 6.1 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user3,32.193.204.60,2026-03-26 13:09:24.031276,Login from UK just 1.0 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin1,162.210.117.230,2026-03-26 12:32:24.031276,Login from US just 6.3 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin2,96.250.153.78,2026-03-26 11:40:24.031276,Login from US just 2.9 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user12,125.78.91.126,2026-03-26 11:09:24.031276,Login from US just 0.4 hours after login from DE.,Investigate user location and enforce MFA.
+Impossible Travel,High,user12,137.91.142.234,2026-03-26 10:45:24.031276,Login from DE just 1.2 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user18,125.84.173.51,2026-03-26 09:16:24.031276,Login from US just 8.9 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin2,25.111.182.17,2026-03-26 08:44:24.031276,Login from CA just 2.0 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user4,61.76.48.29,2026-03-26 08:19:24.031276,Login from US just 3.2 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user6,182.13.251.63,2026-03-26 08:11:24.031276,Login from US just 0.7 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user1,75.183.237.140,2026-03-26 07:51:24.031276,Login from US just 8.9 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user6,198.34.79.124,2026-03-26 07:29:24.031276,Login from CA just 0.5 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user16,1.227.232.110,2026-03-26 07:08:24.031276,Login from CA just 2.4 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin1,213.243.13.68,2026-03-26 06:11:24.031276,Login from UK just 3.8 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user19,114.165.213.93,2026-03-26 06:08:24.031276,Login from US just 1.7 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user11,195.76.39.69,2026-03-26 05:14:24.031276,Login from US just 0.4 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user4,7.0.158.61,2026-03-26 05:08:24.031276,Login from CA just 1.9 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user11,122.240.255.247,2026-03-26 04:51:24.031276,Login from CA just 0.7 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user16,176.18.96.242,2026-03-26 04:45:24.031276,Login from US just 1.9 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user15,220.54.246.163,2026-03-26 04:31:24.031276,Login from CA just 7.1 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user19,150.13.126.149,2026-03-26 04:26:24.031276,Login from CA just 2.4 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user11,81.197.160.42,2026-03-26 04:08:24.031276,Login from UK just 4.8 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user14,135.190.0.208,2026-03-26 03:24:24.031276,Login from US just 1.3 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user4,106.101.33.147,2026-03-26 03:17:24.031276,Login from UK just 0.7 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user16,147.43.121.93,2026-03-26 02:49:24.031276,Login from CA just 1.4 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user9,59.6.81.17,2026-03-26 02:14:24.031276,Login from US just 3.6 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user14,215.226.91.248,2026-03-26 02:05:24.031276,Login from UK just 0.5 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user19,122.133.62.59,2026-03-26 02:00:24.031276,Login from US just 0.5 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user19,177.76.16.145,2026-03-26 01:28:24.031276,Login from IN just 0.1 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user16,205.92.11.242,2026-03-26 01:24:24.031276,Login from UK just 1.9 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user18,180.84.225.108,2026-03-26 00:19:24.031276,Login from CA just 9.7 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user1,83.252.107.77,2026-03-25 22:58:24.031276,Login from IN just 3.4 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user2,123.164.130.237,2026-03-25 22:49:24.031276,Login from US just 2.3 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user9,160.157.211.235,2026-03-25 22:38:24.031276,Login from CA just 1.6 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user3,63.172.16.67,2026-03-25 22:18:24.031276,Login from US just 0.2 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user3,167.67.26.127,2026-03-25 22:08:24.031276,Login from CA just 0.8 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user2,162.61.246.12,2026-03-25 20:29:24.031276,Login from IN just 0.2 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user13,150.37.135.26,2026-03-25 18:58:24.031276,Login from CA just 5.2 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user14,223.107.213.226,2026-03-25 18:52:24.031276,Login from US just 2.6 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user1,144.194.3.190,2026-03-25 18:14:24.031276,Login from US just 0.2 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user15,175.197.26.43,2026-03-25 18:11:24.031276,Login from US just 7.2 hours after login from DE.,Investigate user location and enforce MFA.
+Impossible Travel,High,user1,51.255.232.114,2026-03-25 18:03:24.031276,Login from CA just 0.3 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user14,10.61.29.44,2026-03-25 16:15:24.031276,Login from CA just 3.4 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user16,62.14.111.38,2026-03-25 16:02:24.031276,Login from US just 2.8 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user10,106.40.71.127,2026-03-25 15:26:24.031276,Login from US just 2.8 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user4,131.216.33.26,2026-03-25 13:38:24.031276,Login from US just 2.8 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user16,95.79.236.138,2026-03-25 13:16:24.031276,Login from CA just 0.6 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user10,95.21.82.119,2026-03-25 12:39:24.031276,Login from UK just 0.7 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user14,180.70.22.175,2026-03-25 12:29:24.031276,Login from US just 0.3 hours after login from DE.,Investigate user location and enforce MFA.
+Impossible Travel,High,user14,33.166.134.24,2026-03-25 12:12:24.031276,Login from DE just 7.9 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user10,112.229.75.73,2026-03-25 11:58:24.031276,Login from US just 3.7 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user11,10.229.50.138,2026-03-25 11:11:24.031276,Login from US just 6.9 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user15,108.233.52.99,2026-03-25 10:57:24.031276,Login from DE just 3.8 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user4,204.205.71.48,2026-03-25 10:52:24.031276,Login from CA just 4.4 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user7,63.56.187.164,2026-03-25 09:31:24.031276,Login from US just 1.3 hours after login from DE.,Investigate user location and enforce MFA.
+Impossible Travel,High,user12,219.202.65.93,2026-03-25 08:32:24.031276,Login from US just 1.7 hours after login from DE.,Investigate user location and enforce MFA.
+Impossible Travel,High,user10,122.127.221.13,2026-03-25 08:18:24.031276,Login from IN just 2.0 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user15,85.244.88.18,2026-03-25 07:11:24.031276,Login from US just 1.3 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user12,168.110.174.103,2026-03-25 06:49:24.031276,Login from DE just 9.0 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user15,99.53.52.108,2026-03-25 05:55:24.031276,Login from CA just 9.8 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user1,184.106.234.48,2026-03-25 04:29:24.031276,Login from US just 2.2 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user11,66.130.144.1,2026-03-25 04:16:24.031276,Login from UK just 2.1 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user8,114.233.78.143,2026-03-25 03:13:24.031276,Login from US just 0.6 hours after login from DE.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin2,73.214.63.100,2026-03-25 03:00:24.031276,Login from US just 2.8 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user8,145.202.218.66,2026-03-25 02:40:24.031276,Login from DE just 1.5 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user5,103.251.223.233,2026-03-25 02:34:24.031276,Login from US just 1.9 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user1,132.28.251.230,2026-03-25 02:19:24.031276,Login from IN just 10.2 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user19,201.153.72.236,2026-03-25 01:57:24.031276,Login from UK just 6.2 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user16,76.200.105.30,2026-03-25 01:21:24.031276,Login from US just 1.6 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user5,13.99.4.109,2026-03-25 00:42:24.031276,Login from IN just 1.5 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin2,186.7.227.45,2026-03-25 00:15:24.031276,Login from UK just 7.1 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user16,191.121.249.203,2026-03-24 23:47:24.031276,Login from CA just 0.4 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user12,45.21.96.77,2026-03-24 21:51:24.031276,Login from US just 1.0 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user17,65.163.30.61,2026-03-24 21:40:24.031276,Login from US just 0.4 hours after login from DE.,Investigate user location and enforce MFA.
+Impossible Travel,High,user3,60.69.248.65,2026-03-24 21:33:24.031276,Login from US just 0.8 hours after login from DE.,Investigate user location and enforce MFA.
+Impossible Travel,High,user17,120.171.105.236,2026-03-24 21:14:24.031276,Login from DE just 0.6 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user12,124.130.0.50,2026-03-24 20:51:24.031276,Login from CA just 6.8 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user3,212.184.150.27,2026-03-24 20:43:24.031276,Login from DE just 0.3 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user10,142.252.96.7,2026-03-24 19:34:24.031276,Login from US just 1.0 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user13,67.249.173.218,2026-03-24 18:39:24.031276,Login from UK just 0.3 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user10,136.160.111.206,2026-03-24 18:34:24.031276,Login from UK just 2.0 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin2,208.25.205.225,2026-03-24 13:22:24.031276,Login from US just 2.8 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user6,27.125.96.44,2026-03-24 13:15:24.031276,Login from US just 0.2 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user6,126.10.143.4,2026-03-24 13:02:24.031276,Login from CA just 1.4 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user6,131.104.185.21,2026-03-24 11:37:24.031276,Login from US just 8.6 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin2,204.43.136.37,2026-03-24 10:33:24.031276,Login from UK just 1.1 hours after login from DE.,Investigate user location and enforce MFA.
+Impossible Travel,High,user11,83.179.135.117,2026-03-24 10:19:24.031276,Login from US just 2.6 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin2,67.211.163.192,2026-03-24 09:27:24.031276,Login from DE just 0.7 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user17,170.111.160.187,2026-03-24 09:00:24.031276,Login from US just 5.3 hours after login from DE.,Investigate user location and enforce MFA.
+Impossible Travel,High,user10,6.116.40.22,2026-03-24 08:43:24.031276,Login from US just 7.8 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin2,131.215.154.2,2026-03-24 08:26:24.031276,Login from US just 2.6 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user11,213.121.16.223,2026-03-24 07:45:24.031276,Login from IN just 1.1 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user2,201.180.255.27,2026-03-24 07:15:24.031276,Login from US just 3.4 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user5,12.54.90.160,2026-03-24 06:54:24.031276,Login from US just 0.2 hours after login from RU.,Investigate user location and enforce MFA.
+Impossible Travel,High,user9,213.103.53.225,2026-03-24 06:50:24.031276,Login from US just 4.0 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user5,213.190.5.152,2026-03-24 06:42:24.031276,Login from RU just 0.1 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user11,189.81.203.47,2026-03-24 06:41:24.031276,Login from US just 7.2 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user19,183.150.125.15,2026-03-24 05:56:24.031276,Login from US just 7.8 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin2,57.238.135.81,2026-03-24 05:49:24.031276,Login from IN just 0.1 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user7,53.49.233.163,2026-03-24 05:37:24.031276,Login from US just 0.6 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user7,139.137.235.7,2026-03-24 05:00:24.031276,Login from UK just 4.9 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user8,109.137.217.215,2026-03-24 04:34:24.031276,Login from US just 6.3 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user2,39.11.220.234,2026-03-24 03:51:24.031276,Login from IN just 11.6 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user17,69.100.165.72,2026-03-24 03:39:24.031276,Login from DE just 1.7 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user6,82.181.55.4,2026-03-24 02:59:24.031276,Login from CA just 3.3 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user9,102.143.15.92,2026-03-24 02:50:24.031276,Login from IN just 5.5 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin1,183.19.66.104,2026-03-24 02:06:24.031276,Login from US just 0.7 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user17,7.222.51.202,2026-03-24 01:55:24.031276,Login from CA just 0.5 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin1,164.149.86.87,2026-03-24 01:24:24.031276,Login from UK just 0.8 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user13,8.71.241.81,2026-03-24 01:12:24.031276,Login from US just 3.6 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user10,176.204.138.253,2026-03-24 00:56:24.031276,Login from CA just 1.6 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user15,126.175.209.28,2026-03-24 00:46:24.031276,Login from US just 6.3 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user1,96.59.180.246,2026-03-23 23:59:24.031276,Login from US just 7.3 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user11,217.162.37.119,2026-03-23 23:31:24.031276,Login from IN just 0.1 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user8,6.129.35.223,2026-03-23 22:17:24.031276,Login from CA just 0.0 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user19,206.138.13.179,2026-03-23 22:09:24.031276,Login from CA just 7.4 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user13,116.37.185.99,2026-03-23 21:36:24.031276,Login from UK just 1.7 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user9,10.120.47.197,2026-03-23 21:20:24.031276,Login from US just 0.3 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user9,202.66.236.189,2026-03-23 21:04:24.031276,Login from CA just 0.5 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user9,182.51.245.38,2026-03-23 20:32:24.031276,Login from US just 1.8 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin1,144.21.137.162,2026-03-23 18:50:24.031276,Login from US just 0.8 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user9,185.86.84.25,2026-03-23 18:44:24.031276,Login from CA just 4.3 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user15,171.120.116.121,2026-03-23 18:30:24.031276,Login from CA just 1.6 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin1,165.176.130.179,2026-03-23 18:04:24.031276,Login from IN just 0.1 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user1,110.176.255.105,2026-03-23 16:39:24.031276,Login from CA just 2.9 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user16,194.36.18.122,2026-03-23 16:28:24.031276,Login from US just 0.1 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user8,5.176.200.147,2026-03-23 15:06:24.031276,Login from US just 1.1 hours after login from DE.,Investigate user location and enforce MFA.
+Impossible Travel,High,user9,154.168.104.130,2026-03-23 14:28:24.031276,Login from US just 2.4 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user8,176.231.37.209,2026-03-23 13:59:24.031276,Login from DE just 0.4 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user19,66.70.31.65,2026-03-23 12:11:24.031276,Login from US just 4.9 hours after login from DE.,Investigate user location and enforce MFA.
+Impossible Travel,High,user9,163.131.6.223,2026-03-23 12:04:24.031276,Login from IN just 2.6 hours after login from DE.,Investigate user location and enforce MFA.
+Impossible Travel,High,user16,26.92.97.90,2026-03-23 10:20:24.031276,Login from CA just 2.7 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user9,156.92.40.254,2026-03-23 09:30:24.031276,Login from DE just 2.6 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user7,153.219.129.162,2026-03-23 09:07:24.031276,Login from US just 4.2 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user15,164.72.136.254,2026-03-23 07:43:24.031276,Login from US just 1.6 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user16,159.180.1.123,2026-03-23 07:39:24.031276,Login from US just 0.5 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user19,139.19.166.215,2026-03-23 07:16:24.031276,Login from DE just 0.6 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user16,219.188.113.74,2026-03-23 07:08:24.031276,Login from UK just 4.0 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user15,55.218.4.122,2026-03-23 06:10:24.031276,Login from UK just 1.2 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user19,206.168.237.105,2026-03-23 05:34:24.031276,Login from US just 6.8 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user17,74.28.202.2,2026-03-23 05:24:24.031276,Login from US just 3.8 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user7,116.178.21.129,2026-03-23 04:53:24.031276,Login from CA just 3.1 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user18,214.176.192.215,2026-03-23 02:46:24.031276,Login from US just 4.9 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin1,38.211.127.91,2026-03-23 02:39:24.031276,Login from US just 0.5 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin1,15.211.154.215,2026-03-23 02:11:24.031276,Login from UK just 0.8 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user17,192.185.110.12,2026-03-23 01:35:24.031276,Login from UK just 5.2 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user15,24.207.41.119,2026-03-23 01:00:24.031276,Login from US just 0.9 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user15,50.148.64.241,2026-03-23 00:03:24.031276,Login from UK just 10.3 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user19,157.75.239.138,2026-03-22 22:43:24.031276,Login from UK just 6.0 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user18,131.120.27.194,2026-03-22 21:50:24.031276,Login from UK just 2.2 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user14,108.140.28.30,2026-03-22 21:11:24.031276,Login from US just 1.1 hours after login from DE.,Investigate user location and enforce MFA.
+Impossible Travel,High,user8,103.250.70.7,2026-03-22 21:09:24.031276,Login from US just 3.4 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user10,177.12.173.168,2026-03-22 20:56:24.031276,Login from US just 2.7 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user13,49.111.136.71,2026-03-22 20:39:24.031276,Login from US just 1.8 hours after login from DE.,Investigate user location and enforce MFA.
+Impossible Travel,High,user14,47.226.102.29,2026-03-22 20:07:24.031276,Login from DE just 5.5 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user18,122.135.247.255,2026-03-22 19:38:24.031276,Login from IN just 2.1 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user13,102.158.13.45,2026-03-22 18:51:24.031276,Login from DE just 3.9 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin2,10.138.172.166,2026-03-22 18:25:24.031276,Login from US just 2.5 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user10,192.240.240.125,2026-03-22 18:12:24.031276,Login from UK just 0.7 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user7,58.100.18.4,2026-03-22 18:00:24.031276,Login from US just 6.3 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user8,148.153.48.30,2026-03-22 17:46:24.031276,Login from CA just 10.0 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin2,223.232.200.12,2026-03-22 15:53:24.031276,Login from IN just 1.1 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user2,5.27.1.169,2026-03-22 15:13:24.031276,Login from US just 3.6 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user7,184.9.6.47,2026-03-22 11:42:24.031276,Login from CA just 4.6 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user2,136.217.219.253,2026-03-22 11:35:24.031276,Login from CA just 1.9 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user13,114.5.14.144,2026-03-22 11:17:24.031276,Login from US just 1.9 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user17,151.218.155.50,2026-03-22 10:55:24.031276,Login from US just 2.3 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user2,97.132.148.57,2026-03-22 09:39:24.031276,Login from US just 1.7 hours after login from DE.,Investigate user location and enforce MFA.
+Impossible Travel,High,user6,151.83.74.193,2026-03-22 09:29:24.031276,Login from US just 2.2 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user13,51.151.0.68,2026-03-22 09:21:24.031276,Login from CA just 3.8 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user17,114.214.64.225,2026-03-22 08:37:24.031276,Login from UK just 9.0 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user2,84.72.243.116,2026-03-22 07:59:24.031276,Login from DE just 0.9 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user6,106.61.168.17,2026-03-22 07:18:24.031276,Login from CA just 1.8 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user1,92.231.171.182,2026-03-22 06:27:24.031276,Login from US just 1.4 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user1,183.154.46.19,2026-03-22 05:04:24.031276,Login from CA just 7.3 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user9,93.205.80.131,2026-03-22 04:07:24.031276,Login from US just 0.3 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin1,20.153.208.179,2026-03-22 04:02:24.031276,Login from US just 2.0 hours after login from IN.,Investigate user location and enforce MFA.
+Impossible Travel,High,user5,99.96.97.120,2026-03-22 03:57:24.031276,Login from US just 0.9 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,user9,92.218.254.50,2026-03-22 03:47:24.031276,Login from CA just 2.3 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin1,76.238.31.126,2026-03-22 02:03:24.031276,Login from IN just 1.2 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user18,203.165.133.104,2026-03-22 01:15:24.031276,Login from US just 0.2 hours after login from DE.,Investigate user location and enforce MFA.
+Impossible Travel,High,user18,26.0.119.112,2026-03-22 01:05:24.031276,Login from DE just 2.0 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin1,61.64.115.88,2026-03-22 00:04:24.031276,Login from US just 0.7 hours after login from CA.,Investigate user location and enforce MFA.
+Impossible Travel,High,admin1,51.168.142.94,2026-03-21 23:24:24.031276,Login from CA just 4.2 hours after login from US.,Investigate user location and enforce MFA.
+Impossible Travel,High,user3,216.228.43.207,2026-03-21 22:59:24.031276,Login from US just 1.0 hours after login from UK.,Investigate user location and enforce MFA.
+Impossible Travel,High,user3,102.1.92.210,2026-03-21 21:58:24.031276,Login from UK just 0.4 hours after login from US.,Investigate user location and enforce MFA.
+Off-hours Privileged Access,Medium,admin1,160.212.107.229,2026-03-28 05:28:24.031276,Admin access detected during off-hours (05:28).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin2,70.148.33.147,2026-03-28 04:50:24.031276,Admin access detected during off-hours (04:50).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,73.140.209.187,2026-03-28 04:07:24.031276,Admin access detected during off-hours (04:07).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin2,23.242.34.65,2026-03-28 01:40:24.031276,Admin access detected during off-hours (01:40).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin2,122.125.202.12,2026-03-27 01:49:24.031276,Admin access detected during off-hours (01:49).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,178.166.65.37,2026-03-27 01:14:24.031276,Admin access detected during off-hours (01:14).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,57.79.129.16,2026-03-26 23:37:24.031276,Admin access detected during off-hours (23:37).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin2,213.22.249.34,2026-03-26 22:41:24.031276,Admin access detected during off-hours (22:41).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin2,76.45.50.130,2026-03-26 05:57:24.031276,Admin access detected during off-hours (05:57).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,145.97.191.252,2026-03-26 02:22:24.031276,Admin access detected during off-hours (02:22).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin2,107.168.96.73,2026-03-26 01:50:24.031276,Admin access detected during off-hours (01:50).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin2,204.15.63.160,2026-03-26 00:46:24.031276,Admin access detected during off-hours (00:46).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin2,158.200.227.8,2026-03-26 00:37:24.031276,Admin access detected during off-hours (00:37).,Verify if the admin was scheduled for maintenance.
+API Burst Activity,Medium,user7,194.209.135.176,2026-03-25 16:45:36.979276,"Source IP made 100 API requests, indicating potential scraping or enumeration.",Rate limit the IP and investigate access intent.
+Off-hours Privileged Access,Medium,admin2,140.197.21.215,2026-03-25 05:36:24.031276,Admin access detected during off-hours (05:36).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,3.182.141.129,2026-03-25 05:01:24.031276,Admin access detected during off-hours (05:01).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin2,73.214.63.100,2026-03-25 03:00:24.031276,Admin access detected during off-hours (03:00).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin2,186.7.227.45,2026-03-25 00:15:24.031276,Admin access detected during off-hours (00:15).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,212.104.76.0,2026-03-24 23:35:24.031276,Admin access detected during off-hours (23:35).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,35.149.21.247,2026-03-24 21:45:24.031276,Admin access detected during off-hours (21:45).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin2,57.238.135.81,2026-03-24 05:49:24.031276,Admin access detected during off-hours (05:49).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin2,175.91.226.27,2026-03-24 05:40:24.031276,Admin access detected during off-hours (05:40).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,47.129.109.221,2026-03-24 05:10:24.031276,Admin access detected during off-hours (05:10).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin2,197.201.82.190,2026-03-24 05:02:24.031276,Admin access detected during off-hours (05:02).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,43.30.44.71,2026-03-24 04:13:24.031276,Admin access detected during off-hours (04:13).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,194.109.212.63,2026-03-24 03:36:24.031276,Admin access detected during off-hours (03:36).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,114.199.231.152,2026-03-24 03:15:24.031276,Admin access detected during off-hours (03:15).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,85.23.184.206,2026-03-24 03:07:24.031276,Admin access detected during off-hours (03:07).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,218.14.115.71,2026-03-24 02:42:24.031276,Admin access detected during off-hours (02:42).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,183.19.66.104,2026-03-24 02:06:24.031276,Admin access detected during off-hours (02:06).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,164.149.86.87,2026-03-24 01:24:24.031276,Admin access detected during off-hours (01:24).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin2,175.47.219.219,2026-03-24 00:59:24.031276,Admin access detected during off-hours (00:59).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,67.245.166.87,2026-03-24 00:33:24.031276,Admin access detected during off-hours (00:33).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin2,46.145.24.123,2026-03-23 21:34:24.031276,Admin access detected during off-hours (21:34).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,32.201.244.104,2026-03-23 03:03:24.031276,Admin access detected during off-hours (03:03).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,38.211.127.91,2026-03-23 02:39:24.031276,Admin access detected during off-hours (02:39).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,15.211.154.215,2026-03-23 02:11:24.031276,Admin access detected during off-hours (02:11).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,166.205.204.53,2026-03-23 01:20:24.031276,Admin access detected during off-hours (01:20).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,49.50.42.199,2026-03-23 00:08:24.031276,Admin access detected during off-hours (00:08).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,181.81.158.75,2026-03-22 22:15:24.031276,Admin access detected during off-hours (22:15).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,210.28.22.40,2026-03-22 04:58:24.031276,Admin access detected during off-hours (04:58).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,20.153.208.179,2026-03-22 04:02:24.031276,Admin access detected during off-hours (04:02).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin2,16.153.105.252,2026-03-22 02:49:24.031276,Admin access detected during off-hours (02:49).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,76.238.31.126,2026-03-22 02:03:24.031276,Admin access detected during off-hours (02:03).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,143.158.42.43,2026-03-22 00:53:24.031276,Admin access detected during off-hours (00:53).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,83.192.91.144,2026-03-22 00:38:24.031276,Admin access detected during off-hours (00:38).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,61.64.115.88,2026-03-22 00:04:24.031276,Admin access detected during off-hours (00:04).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin1,51.168.142.94,2026-03-21 23:24:24.031276,Admin access detected during off-hours (23:24).,Verify if the admin was scheduled for maintenance.
+Off-hours Privileged Access,Medium,admin2,173.248.39.204,2026-03-21 22:40:24.031276,Admin access detected during off-hours (22:40).,Verify if the admin was scheduled for maintenance.
