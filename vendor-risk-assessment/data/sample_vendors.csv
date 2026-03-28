@@ -1,0 +1,31 @@
+vendor_name,country,data_sensitivity,access_level,compliance_status,business_criticality
+AlphaTech Solutions,US,Low,Read,SOC2,Low
+BetaCloud Services,US,Medium,Read,ISO27001,Medium
+GammaSoft Inc,CA,High,Write,SOC2,High
+DeltaNet Systems,UK,Medium,Write,ISO27001,Medium
+EpsilonData Corp,IN,High,Admin,None,High
+ZetaAI Platform,US,Low,Read,SOC2,Low
+EtaSecure Ltd,DE,Medium,Read,ISO27001,Low
+ThetaLogistics Co,RU,High,Admin,None,High
+IotaVendor Group,CN,High,Write,None,High
+KappaSupply Chain,US,Low,Read,SOC2,Low
+LambdaTech Partners,BR,Medium,Write,None,Medium
+MuDataSystems,US,Medium,Read,ISO27001,Medium
+NuCloud Inc,UK,Low,Read,SOC2,Low
+XiAnalytics Ltd,IN,High,Write,SOC2,High
+OmicronSoftware,US,Low,Read,ISO27001,Low
+PiSecure Corp,DE,Medium,Admin,None,High
+RhoDataHub,US,High,Read,SOC2,Medium
+SigmaVendor Ltd,CN,High,Admin,None,High
+TauConsulting,MX,Medium,Write,None,Medium
+UpsilonPlatform,US,Low,Read,SOC2,Low
+PhiNetworks,RU,High,Write,None,High
+ChiDataSvc,US,Medium,Read,ISO27001,Medium
+PsiSoftware,IN,High,Admin,SOC2,High
+OmegaTech,US,Low,Read,SOC2,Low
+AlphaOps,CA,Medium,Write,None,Medium
+BetaRisk Inc,UK,High,Write,ISO27001,High
+GammaCybersec,US,Low,Read,SOC2,Low
+DeltaIntegrations,BR,High,Admin,None,High
+EtaEnterprise,US,Medium,Read,ISO27001,Low
+ZetaCompliance,DE,Low,Read,ISO27001,Low
